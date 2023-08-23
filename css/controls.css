@@ -1,0 +1,8 @@
+.button {
+   background-color: var(--brand-baskground-color);
+   min-width: 100px;
+   padding: 5,px 15px;
+   text-decoration: none;
+   cursor: pointer;
+   color: white;
+}

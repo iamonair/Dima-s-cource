@@ -1,0 +1,134 @@
+.header {
+    background-color: #f7f8fa;
+}
+
+.header__logo-image {
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50.325px;
+    line-height: 20.02px;
+    padding: 35px;
+    width: 101px;
+    margin-bottom: 150px;
+}
+
+.header__menu .header__contact-logo {
+display: flex;
+flex-direction: column;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: rgb(21, 31, 54);
+    font-size: 14px;
+}
+
+.header__menu-link:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 990px) {
+    .header__menu {
+        flex-direction: row;
+        justify-content: space-around;
+        flex: 1;
+    }
+    .header__logo {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.header__contact {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    min-height: 320px;
+    padding-top: 60px;
+    min-height: 100vh;
+    display: grid;
+    grid: 1.2fr 1.2fr;
+    background-color: var(--accent-background-color);
+}
+
+.atta-yoga__first-section {
+    text-align: left;
+    box-sizing: content-box;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 0;
+    min-height: 100vh;
+    margin-left: 20px;
+}
+
+.atta-yoga__title-paragraph {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    line-height: 17.6px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: var(--brand-color);
+}
+
+.atta-yoga__title {
+    font-size: 72px;
+    font-weight: 400px;
+    line-height: 86.4px;
+    color: var(--text-accent-color);
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.atta-yoga__title-card-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    overflow-wrap: break-word;
+    color: var(--text-shade-color);
+    padding-bottom: 40px;
+}
+
+.button {
+border-bottom-width: 0.8px;
+border-top-width: 0.8px;
+border-left-width: 0.8px;
+border-right-width: 0.8px;
+font-size: 12px;
+font-weight: 400;
+line-height: 44.4px;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+position: absolute;
+text-align: center;
+width: 135.275px;
+font-weight: bold;
+}
+
+.atta-yoga__card-image {
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 400;
+    height: 501.125px;
+    line-height: 21px;
+    width: 466px;
+    position: relative;
+    text-align: left;
+}
+
+
+@media (min-width: 770px) {
+    .header__contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
