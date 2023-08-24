@@ -40,7 +40,7 @@ flex-direction: column;
         justify-content: space-around;
         flex: 1;
     }
-    .header__logo {
+    .header__logo-main {
         display: flex;
         align-items: center;
     }
@@ -92,7 +92,7 @@ flex-direction: column;
     font-weight: 500;
     line-height: 25.2px;
     overflow-wrap: break-word;
-    color: var(--text-shade-color);
+    color: var(--text-color);
     padding-bottom: 40px;
 }
 
@@ -121,6 +121,7 @@ font-weight: bold;
     width: 466px;
     position: relative;
     text-align: left;
+    max-width: 100%;
 }
 
 
